@@ -18,7 +18,7 @@ from sklearn.ensemble import BaggingRegressor
 from xgboost import XGBRegressor
 '''
 import streamlit as st; from PIL import Image
-import sklearn
+#import sklearn
 import joblib
 import pandas as pd
 import numpy as np
