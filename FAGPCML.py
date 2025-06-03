@@ -23,7 +23,7 @@ from sklearn.ensemble         import RandomForestRegressor
 import joblib
 import pandas as pd
 import numpy as np
-
+import pickle
 # Load models
 #RF = pickle.load(open('LR.pkl','rb'))
 RF = joblib.load('RF.joblib')
